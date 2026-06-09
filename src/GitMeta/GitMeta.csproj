@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>GitMeta</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Richard Wooding</Authors>
+    <Description>Fast per-file git metadata (last-commit time/author/subject, first-seen, commit count, tracked/ignored status) resolved by scanning a working tree once and answering per-path lookups in constant time. Zero dependencies — shells out to the system git binary. Port of the Go library github.com/richardwooding/gitmeta.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/richardwooding/gitmeta-csharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/richardwooding/gitmeta-csharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>git;metadata;churn;blame;vcs</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>Copyright (c) 2026 Richard Wooding</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="GitMeta.Tests" />
+  </ItemGroup>
+
+</Project>

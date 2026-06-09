@@ -1,0 +1,20 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.nupkg
+*.snupkg
+
+# Test results / coverage
+[Tt]est[Rr]esults/
+*.trx
+coverage*.xml
+coverage*.json
+*.coverage
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.user

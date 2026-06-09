@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GitMeta/GitMeta.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GitMeta.Tests/GitMeta.Tests.csproj" />
+  </Folder>
+</Solution>
