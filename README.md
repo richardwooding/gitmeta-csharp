@@ -4,6 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![.NET 8.0](https://img.shields.io/badge/.NET-8.0-512bd4.svg)](https://dotnet.microsoft.com/)
 
+**Website:** [richardwooding.github.io/gitmeta-csharp](https://richardwooding.github.io/gitmeta-csharp/)
+
 Fast **per-file git metadata** for .NET — last-commit time / author / subject,
 first-seen, commit count (churn), and tracked / ignored status — resolved by
 scanning a working tree **once** and answering per-path lookups in constant
