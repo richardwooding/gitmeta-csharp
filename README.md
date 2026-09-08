@@ -104,6 +104,12 @@ var cache2 = await pool.GetAsync(root, ct);  // async variant
 - The Go nil-`*Cache` contract becomes a nullable return: `Create` yields
   `GitMetaCache?`, and `null` is the "no git data" signal.
 
+## Sponsor
+
+If this saves you time, you can [sponsor its maintenance](https://github.com/sponsors/richardwooding).
+Sponsorship pays for the unglamorous half — triage, dependency bumps, release plumbing — and is
+never a condition of getting help here.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
